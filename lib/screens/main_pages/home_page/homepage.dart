@@ -182,21 +182,21 @@ class HomePage extends StatelessWidget {
                           "TV Shows",
                           style: TextStyle(
                               color: Colors.white.withOpacity(.8),
-                              fontSize: 18),
+                              fontSize: 14),
                         )),
                     TextButton(
                       onPressed: () {},
                       child: Text("Movies",
                           style: TextStyle(
                               color: Colors.white.withOpacity(.8),
-                              fontSize: 18)),
+                              fontSize: 14)),
                     ),
                     TextButton(
                       onPressed: () {},
                       child: Text("My List",
                           style: TextStyle(
                               color: Colors.white.withOpacity(.8),
-                              fontSize: 18)),
+                              fontSize: 14)),
                     )
                   ],
                 )

@@ -34,7 +34,7 @@ class PageFourth extends StatelessWidget {
                 "Watch everywhere",
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 42,
+                    fontSize: 32,
                     fontWeight: FontWeight.bold
                 ),
                 textAlign: TextAlign.center,
@@ -47,7 +47,7 @@ class PageFourth extends StatelessWidget {
                 "Stream on your phone, tablet, laptop, TV and more.",
                 style: TextStyle(
                   color: Colors.white.withOpacity(.7),
-                  fontSize: 22,
+                  fontSize: 16,
                 ),
                 textAlign: TextAlign.center,
               ),

@@ -34,7 +34,7 @@ class PageThird extends StatelessWidget {
                 "No annoying contracts",
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 42,
+                    fontSize: 32,
                     fontWeight: FontWeight.bold
                 ),
                 textAlign: TextAlign.center,
@@ -47,7 +47,7 @@ class PageThird extends StatelessWidget {
                 "Join today, cancel at any time.",
                 style: TextStyle(
                   color: Colors.white.withOpacity(.7),
-                  fontSize: 22,
+                  fontSize: 16,
                 ),
                 textAlign: TextAlign.center,
               ),

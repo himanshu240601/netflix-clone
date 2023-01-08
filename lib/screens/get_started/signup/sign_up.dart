@@ -32,17 +32,17 @@ class SignUp extends StatelessWidget {
             const Text("Ready to watch?",
             style: TextStyle(
               color: Colors.black,
-              fontSize: 34,
+              fontSize: 28,
               fontWeight: FontWeight.w500
             ),
             ),
             const SizedBox(
-              height: 40,
+              height: 20,
             ),
             Text("Enter your email to create or sign in to your account.",
               style: TextStyle(
                   color: Colors.black.withOpacity(.7),
-                  fontSize: 20,
+                  fontSize: 16,
               ),
               textAlign: TextAlign.center,
             ),
@@ -50,20 +50,20 @@ class SignUp extends StatelessWidget {
               height: 40,
             ),
             TextFormField(
-              style: const TextStyle(fontSize: 20),
+              style: const TextStyle(fontSize: 16),
               cursorColor: Colors.black,
               decoration: const InputDecoration(
                 contentPadding:  EdgeInsets.all(20),
                 filled: true,
                 fillColor: Colors.white,
-                labelText: 'Email',
+                labelText: 'Enter you email',
                 focusedBorder:  OutlineInputBorder(
                   borderSide: BorderSide(
                     color: Colors.blue
                   )
                 ),
                 border: OutlineInputBorder(),
-                labelStyle: TextStyle(fontSize: 20),
+                labelStyle: TextStyle(fontSize: 16),
               ),
             ),
             const SizedBox(
@@ -83,7 +83,7 @@ class SignUp extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 12)),
               child: const Text(
                 "GET STARTED",
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.w300),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300),
               ),
             ),
           ],

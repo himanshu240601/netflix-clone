@@ -24,7 +24,7 @@ class SignIn extends StatelessWidget {
             children: [
               TextFormField(
                 cursorColor: Colors.white,
-                style: const TextStyle(color: Colors.white, fontSize: 20),
+                style: const TextStyle(color: Colors.white, fontSize: 16),
                 decoration: InputDecoration(
                   contentPadding: const EdgeInsets.all(20),
                   filled: true,
@@ -36,7 +36,7 @@ class SignIn extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(10))),
                   labelStyle: TextStyle(
                     color: Colors.white.withOpacity(.7),
-                    fontSize: 20,
+                    fontSize: 16,
                   ),
                 ),
               ),
@@ -44,7 +44,7 @@ class SignIn extends StatelessWidget {
                 height: 16,
               ),
               TextFormField(
-                style: const TextStyle(color: Colors.white, fontSize: 20),
+                style: const TextStyle(color: Colors.white, fontSize: 16),
                 obscureText: true,
                 cursorColor: Colors.white,
                 decoration: InputDecoration(
@@ -57,7 +57,7 @@ class SignIn extends StatelessWidget {
                   border: const OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10))),
                   labelStyle: TextStyle(
-                      color: Colors.white.withOpacity(.7), fontSize: 20),
+                      color: Colors.white.withOpacity(.7), fontSize: 16),
                 ),
               ),
               const SizedBox(
@@ -79,7 +79,7 @@ class SignIn extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(10)))),
                 child: const Text(
                   "Sign In",
-                  style: TextStyle(color: Colors.white, fontSize: 20),
+                  style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
               const SizedBox(
@@ -91,12 +91,9 @@ class SignIn extends StatelessWidget {
                     'Need help?',
                     style: TextStyle(
                         color: Colors.white.withOpacity(.5),
-                        fontSize: 18,
+                        fontSize: 14,
                         fontWeight: FontWeight.w500),
                   )
-              ),
-              const SizedBox(
-                height: 12,
               ),
               TextButton(
                   onPressed: () {
@@ -106,18 +103,17 @@ class SignIn extends StatelessWidget {
                     'New to Netflix? Sign up now.',
                     style: TextStyle(
                         color: Colors.white.withOpacity(.7),
-                        fontSize: 18,
+                        fontSize: 14,
                         fontWeight: FontWeight.w500),
                   )
               ),
-              const SizedBox(height: 24,),
               TextButton(
                   onPressed: () {},
                   child: Text(
                     "Sign-in is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.",
                     style: TextStyle(
                         color: Colors.white.withOpacity(.3),
-                        fontSize: 14,
+                        fontSize: 12,
                   ),
                     textAlign: TextAlign.center,
               ),

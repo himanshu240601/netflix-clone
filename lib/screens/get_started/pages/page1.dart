@@ -34,7 +34,7 @@ class PageFirst extends StatelessWidget {
                   "Unlimited entertainment, one low price.",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 42,
+                  fontSize: 32,
                   fontWeight: FontWeight.bold
                 ),
                 textAlign: TextAlign.center,
@@ -47,7 +47,7 @@ class PageFirst extends StatelessWidget {
                 "Everything on Netflix, starting at just Rs. 149.",
                 style: TextStyle(
                   color: Colors.white.withOpacity(.7),
-                  fontSize: 22,
+                  fontSize: 16,
                 ),
                 textAlign: TextAlign.center,
               ),

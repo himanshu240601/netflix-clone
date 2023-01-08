@@ -97,9 +97,9 @@ class _GetStartedState extends State<GetStarted> {
                 controller: _controller,
                 count: 4,
                 effect: ColorTransitionEffect(
-                    spacing: 16,
-                    dotHeight: 12,
-                    dotWidth: 12,
+                    spacing: 8,
+                    dotHeight: 6,
+                    dotWidth: 6,
                     dotColor: Colors.grey.withOpacity(.5),
                     activeDotColor: Colors.white),
               )),
@@ -120,7 +120,7 @@ class _GetStartedState extends State<GetStarted> {
               padding: const EdgeInsets.symmetric(vertical: 12)),
           child: const Text(
             "GET STARTED",
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w300),
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300),
           ),
         ),
       ),
