@@ -1,5 +1,12 @@
 # Netflix UI Clone
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95276862/212129170-27aefce3-7979-4978-909b-9572d352eba0.jpg" width=200 height=400/>
+  <img src="https://user-images.githubusercontent.com/95276862/212129229-bfab87bd-6028-49a8-930d-6b8fbdf8de43.jpg" width=200 height=400/>
+  <img src="https://user-images.githubusercontent.com/95276862/212129262-7bffcd88-4e68-4427-acae-777359386c78.jpg" width=200 height=400/>
+  <img src="https://user-images.githubusercontent.com/95276862/212129295-51754304-d4c8-4c10-8fc9-929e3cf45780.jpg" width=200 height=400/>
+</p>
+
 A Flutter-based learning project inspired by the Netflix mobile interface.
 
 This project was created to practice building mobile interfaces with Flutter, working with reusable widgets, layouts, assets, and navigation.
